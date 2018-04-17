@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="681c05bb-422a-4fe9-8c32-53e79d1d7a56" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RentaPeliculas.iml" afterPath="$PROJECT_DIR$/RentaPeliculas.iml" />
-      <change beforePath="$PROJECT_DIR$/src/com/renta/peliculas/Alquiler.java" afterPath="$PROJECT_DIR$/src/com/renta/peliculas/Alquiler.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/renta/peliculas/Cliente.java" afterPath="$PROJECT_DIR$/src/com/renta/peliculas/Cliente.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/renta/peliculas/Disco.java" afterPath="$PROJECT_DIR$/src/com/renta/peliculas/Disco.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/renta/peliculas/Registrar.java" afterPath="$PROJECT_DIR$/src/com/renta/peliculas/Registrar.java" />
-    </list>
+    <list default="true" id="681c05bb-422a-4fe9-8c32-53e79d1d7a56" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -127,8 +120,8 @@
           <file leaf-file-name="RegistrarTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/com/renta/peliculas/RegistrarTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="211">
-                  <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <state relative-caret-position="376">
+                  <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -165,9 +158,9 @@
         <option value="$PROJECT_DIR$/test/com/renta/peliculas/AlquilerTest.java" />
         <option value="$PROJECT_DIR$/src/com/renta/peliculas/Cliente.java" />
         <option value="$PROJECT_DIR$/test/com/renta/peliculas/ClienteTest.java" />
-        <option value="$PROJECT_DIR$/test/com/renta/peliculas/RegistrarTest.java" />
         <option value="$PROJECT_DIR$/src/com/renta/peliculas/Registrar.java" />
         <option value="$PROJECT_DIR$/src/com/renta/peliculas/Disco.java" />
+        <option value="$PROJECT_DIR$/test/com/renta/peliculas/RegistrarTest.java" />
       </list>
     </option>
   </component>
@@ -509,7 +502,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523982293455</updated>
-      <workItem from="1523982308194" duration="6800000" />
+      <workItem from="1523982308194" duration="6979000" />
     </task>
     <servers />
   </component>
@@ -546,7 +539,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6800000" />
+    <option name="totallyTimeSpent" value="6979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1002" extended-state="6" />
@@ -634,30 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/renta/peliculas/AlquilerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/renta/peliculas/ClienteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/renta/peliculas/RegistrarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/renta/peliculas/Alquiler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -723,6 +692,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/renta/peliculas/ClienteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/renta/peliculas/AlquilerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/renta/peliculas/RegistrarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding />
         </state>
       </provider>
