@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Cliente {
+
 	private String nombre;
+    private ArrayList<Alquiler> alquileres = new ArrayList<>();
 	
 	public Cliente(String pNombre) {
         nombre = pNombre;
@@ -52,19 +54,21 @@ public class Cliente {
         return result;
 
     }
+
 	public String getNombre() {
 		return nombre;
 	}
     
-    
     public void addRental(Alquiler arg) {
     	alquileres.add(arg);
     }
+
     public static Cliente get(String name) {
     	return (Cliente) Registrar.get("Clientes", name);
     }
+
     public void persist() {
     	Registrar.add("Clientes", this);
     }
-    private ArrayList<Alquiler> alquileres= new ArrayList<>();
+
 }

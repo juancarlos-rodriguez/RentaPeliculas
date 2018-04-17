@@ -3,6 +3,7 @@ package com.renta.peliculas;
 import java.util.HashMap;
 
 public class Registrar {
+
 	private static HashMap Peliculas = new HashMap();
 	private static HashMap Clientes = new HashMap();
 	
