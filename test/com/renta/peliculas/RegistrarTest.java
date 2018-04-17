@@ -1,13 +1,19 @@
 package com.renta.peliculas;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class RegistrarTest {
 
-    Registrar registrar = new Registrar();
+    Registrar registrar;
+
+    @Before
+    public void setUp() throws Exception  {
+        registrar = new Registrar();
+    }
 
     @Test
     public void testAddAndGetClientes() throws Exception {
@@ -28,7 +34,6 @@ public class RegistrarTest {
     public void testAddAndGetPeliculas() throws Exception {
 
         Pelicula pelicula = new Pelicula("Tres Chiflados", 100);
-        System.out.println(pelicula);
         registrar.add("Peliculas", pelicula);
         Pelicula pelicula3Chiflados = (Pelicula) registrar.get("Peliculas", "Tres Chiflados");
         Assert.assertEquals("Tres Chiflados", pelicula3Chiflados.getNombre());
