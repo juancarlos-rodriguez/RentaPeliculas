@@ -10,9 +10,12 @@ public class Registrar {
 	public static Object get(String coleccion, String nombre) {
 		if ("Peliculas".equals(coleccion)){
 			return Peliculas.get(nombre);
-		}
-		return Clientes.get(nombre);
-		
+		} else if ("Clientes".equals(coleccion)) {
+            return Clientes.get(nombre);
+        } else {
+		    return null;
+        }
+
 	}
 
 	public static void add(String coleccion, Object objeto) {
