@@ -12,7 +12,7 @@ public class DiscoTest {
 
     @Before
     public void setUp() throws Exception {
-        Pelicula pelicula = new Pelicula("Tres Chiflados", 100);
+        Pelicula pelicula = new Pelicula("Tres Chiflados", 0);
         disco = new Disco("NumSerie123", pelicula);
     }
 

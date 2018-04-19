@@ -33,7 +33,7 @@ public class RegistrarTest {
     @Test
     public void testAddAndGetPeliculas() throws Exception {
 
-        Pelicula pelicula = new Pelicula("Tres Chiflados", 100);
+        Pelicula pelicula = new Pelicula("Tres Chiflados", 0);
         registrar.add("Peliculas", pelicula);
         Pelicula pelicula3Chiflados = (Pelicula) registrar.get("Peliculas", "Tres Chiflados");
         Assert.assertEquals("Tres Chiflados", pelicula3Chiflados.getNombre());

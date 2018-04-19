@@ -12,12 +12,12 @@ public class PeliculaTest {
 
     @Before
     public void setUp() throws Exception {
-        pelicula = new Pelicula("Tres Chiflados", 100);
+        pelicula = new Pelicula("Tres Chiflados", 0);
     }
 
     @Test
     public void testGetCodigoPrecio() throws Exception {
-        Assert.assertEquals(100, pelicula.getCodigoPrecio());
+        Assert.assertEquals(0, pelicula.getCodigoPrecio());
     }
 
     @Test
