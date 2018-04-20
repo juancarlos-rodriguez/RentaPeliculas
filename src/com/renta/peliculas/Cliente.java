@@ -15,11 +15,11 @@ public class Cliente {
     public String statement() {
         double montoTotal = 0;
         int puntosAlquilerFrecuente = 0;
-        Iterator<Alquiler> iterator= alquileres.iterator();
         String result = "Alquileres de " + nombre + ":\n";
-        while (iterator.hasNext()) {
+
+        for (Alquiler alquiler: alquileres ) {
+
             double montoAlquiler = 0;
-            Alquiler alquiler = iterator.next();
 
             //determine amounts for each line
             switch (alquiler.getDisco().getPelicula().getCodigoPrecio()) {
@@ -48,6 +48,7 @@ public class Cliente {
             result += "\t" + alquiler.getDisco().getPelicula().getNombre()+ "\t" + String.valueOf(montoAlquiler) + "\n";
 
         }
+        
         //fin del reporte
         result +=  "Monto total:  " + String.valueOf(montoTotal) + "\n";
         result += "Gano " + String.valueOf(puntosAlquilerFrecuente) + " puntos por alquiler frecuente";
