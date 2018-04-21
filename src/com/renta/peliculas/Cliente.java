@@ -20,24 +20,7 @@ public class Cliente {
         for (Alquiler alquiler: alquileres ) {
 
             double montoAlquiler = 0;
-
-            //determine amounts for each line
-            switch (alquiler.getDisco().getPelicula().getCodigoPrecio()) {
-                case Pelicula.NORMAL:
-                    montoAlquiler += 2;
-                    if (alquiler.getDiasAlquilado() > 2)
-                        montoAlquiler += (alquiler.getDiasAlquilado() - 2) * 1.5;
-                    break;
-                case Pelicula.ESTRENO:
-                    montoAlquiler += alquiler.getDiasAlquilado() * 3;
-                    break;
-                case Pelicula.INFANTIL:
-                    montoAlquiler += 1.5;
-                    if (alquiler.getDiasAlquilado() > 3)
-                        montoAlquiler += (alquiler.getDiasAlquilado() - 3) * 1.5;
-                    break;
-
-            }
+            montoAlquiler += alquiler.calcularAlquiler();
             montoTotal += montoAlquiler;
 
             puntosAlquilerFrecuente ++;

@@ -11,7 +11,7 @@ public class AlquilerTest {
     Alquiler alquiler;
     Disco disco;
 
-    @Before
+    @Test
     public void setUp() throws Exception {
         Pelicula pelicula = new Pelicula("Tres Chiflados", 0);
         disco = new Disco("NumSerie123", pelicula);
